@@ -1,0 +1,145 @@
+.book{
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color:rgb(43, 43, 43) ;
+ border: 1px solid rgb(43, 43, 43) ;
+ color: rgb(255, 255, 255);
+ padding-top: 13px;
+ padding-bottom: 13px;
+ padding-left: 14px;
+ padding-right: 14px;
+ font-size: 12px;
+ font-weight: bold;
+ 
+}
+.free{
+    background-color:rgb(255, 255, 255) ;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+    font-weight: bold;
+ margin-top: 7px;
+ border: 1px solid rgb(255, 255, 255) ;
+ margin-left: 26px;
+
+}
+/* text */
+.text{
+    position: absolute;
+    right: 360px;
+    font-size:16px ;
+    font-weight: bold;
+    
+}
+.search_text{
+    z-index: 30;
+    color: rgb(255, 255, 255);
+    
+}
+.ola_text{
+    color: rgb(60, 239, 131);
+}
+.material-symbols-outlined{
+    position: absolute;
+    color: rgb(60, 239, 131);
+    margin-left: 50px;
+}
+.menu_select_bar button{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+
+}
+/*  */
+.button_1{
+    margin-left: 22px;
+    font-size: 13px;
+    color: rgb(101, 101, 101);
+    }
+    .button_1:focus{
+        margin-left: 22px;
+        font-size: 13.5px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+
+        }
+
+
+.button_2{
+margin-left: 22px;
+font-size: 13px;
+color: rgb(101, 101, 101);
+}
+.button_2:focus{
+margin-left: 22px;
+font-size: 13.5px;
+color: rgb(0, 0, 0);
+font-weight: bold;
+
+}
+.button_3{
+margin-left: 22px;
+font-size: 13px;
+color: rgb(101, 101, 101);
+}
+.button_3:focus{
+margin-left: 22px;
+font-size: 13.5px;
+color: rgb(0, 0, 0);
+font-weight: bold;
+
+}
+.button1_bar{
+    width: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    position: absolute;
+    top: 39px;
+    left:24px;
+    padding-right: 63px;
+    z-index: 40;
+    opacity: 0;
+    
+    
+}
+.button_1:focus + div{
+    opacity: 1;
+    z-index: 30;
+}
+.button2_bar{
+    width: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    position: absolute;
+    top: 39px;
+    left:113px;
+    padding-right: 63px;
+    z-index: 40;
+    opacity: 0;
+    
+    
+}
+.button_2:focus + div{
+    opacity: 1;
+    z-index: 30;
+}
+.button3_bar{
+    width: 20px;
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    position: absolute;
+    top: 39px;
+    left:210px;
+    padding-right: 63px;
+    z-index: 40;
+    opacity: 0;
+    
+    
+}
+.button_3:focus + div{
+    opacity: 1;
+    z-index: 30;
+}
+
+

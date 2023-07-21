@@ -1,0 +1,81 @@
+.hero_banner_pic{
+   
+    width: 100%;
+
+    
+
+}
+.moving_frame{
+    position: absolute;
+    top: -64px;
+}
+.location_div{
+    position: absolute;
+    left: 430px;
+    z-index: 18;
+    color: rgb(125, 125, 125);
+    font-size: 12px;
+    top: 45px;
+
+}
+#gray{
+    color: rgb(125, 125, 125); 
+}
+.green_dot{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(146, 200, 62);
+    position: absolute;
+    border-radius: 30px;
+    left: 270px;
+    z-index: 20;
+}
+.red_dot{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(233, 117, 80);
+    position: absolute;
+    border-radius: 30px;
+    left: 590px;
+    z-index: 20;
+}
+.gray_line{
+    width: 49px;
+    z-index: 18;
+    height: 2px;
+    background-color: rgb(226, 228, 230);
+    position: absolute;
+    left: 510px;
+
+    
+}
+.ola_cab_back_pic_div{
+    position: absolute;
+    left: 890px;
+    top: 40px;
+    
+}
+.ola_cab_back_pic{
+    width: 240px;
+   
+}
+.green_pic{
+    display: flex;
+
+   
+    margin: 200px auto;
+    /* justify-content: center; */
+    align-items: center;
+    
+    background-color: chocolate;
+    z-index: 45;
+    margin-top: 13.4%;
+    width: 953px;
+    height: 30px;
+
+}
+.banner-green_pic{
+
+    width: 100%;
+
+}
